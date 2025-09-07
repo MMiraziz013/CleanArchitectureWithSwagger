@@ -33,7 +33,7 @@ This project uses a database and relies on Dapper for ORM (Object-Relational Map
 ------
 ## How to Run
 1. Make sure you have the .NET SDK installed.
-2. Restore the NuGet packages: dotnet restore 
+2. Restore the NuGet packages in the terminal: `dotnet restore`. This command reads the project's .csproj file to determine and restore the necessary packages.
 3. Run the application: dotnet run 
 4. Navigate to the Swagger UI in your browser to test the API.
 ---
